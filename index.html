@@ -8,41 +8,247 @@
     <title>Youtube</title>
 </head>
 <body class="bg-[#fffbfb] dark:bg-[#0f0f0f] box-border">
-    <header class="mx-5">
-        <nav class="flex  h-[4.5rem] items-center justify-between">
-            <div class="flex items-center justify-center gap-2">
-                <div class="">
-                    <i class="fa-solid fa-bars text-white text-2xl text-center"></i>
+    <header class="">
+        <nav class="mx-5 h-[4.5rem] fixed w-full">
+            <div class="flex  bg-[#0f0f0f] h-[4.5rem] w-[100%] items-center justify-between fixed  left-1">
+                <div class="flex items-center justify-center gap-4">
+                    <div class="hover:cursor-pointer">
+                        <i class="fa-solid fa-bars text-white text-2xl"></i>
+                    </div>
+                    <div class="hover:cursor-pointer">
+                        <img src="assets/yt_logo_rgb_dark.png" alt="yt_logo_rgb_dark" class="w-[6rem]">
+                    </div>
                 </div>
-                <div>
-                    <img src="assets/yt_logo_rgb_dark.png" alt="yt_logo_rgb_dark" class="w-[8rem]">
+                <div class="flex  items-center">
+                    <div class="px-3 w-[30rem] h-[2.5rem]">
+                        <input type="text" placeholder="Rechercher" class="w-full h-full rounded-full outline-[#00378a] text-gray-400 px-8 border-1">
+                    </div>
+                    <div class="rounded-full bg-[#3D3D3D] w-[2.5rem] h-[2.5rem] flex items-center justify-center hover:cursor-pointer">
+                        <i class="fa-solid fa-microphone text-white"></i>
+                    </div>
                 </div>
-            </div>
-            <div class="flex  items-center">
-                <div class="px-3 w-[30rem] h-[2.5rem]">
-                    <input type="text" placeholder="Rechercher" class="w-full h-full rounded-full outline-[#00378a] text-gray-400 px-8 border-1">
+    
+                <div class="flex  items-center gap-5">
+                    <div class="flex text-white items-center gap-3 rounded-full bg-[#3D3D3D] py-1 px-2 hover:cursor-pointer">
+                        <i class="fa-solid fa-plus"></i>
+                        <p>Créer</p>
+                    </div>
+                    <div class="flex text-white items-center hover:cursor-pointer relative">
+                        <div class="w-2 h-2 rounded-2xl bg-[#FF0202] absolute left-3 top-[1px]"></div>
+                        <i class="fa-solid fa-bell text-xl"></i>
+                    </div>
+                    <div class="w-[2rem] h-[2rem] flex items-center justify-center hover:cursor-pointer">
+                        <img src="assets/profil.jpg" class="rounded-full bg-cover" alt="profil">
+                    </div>
                 </div>
-                <div class="rounded-full bg-[#3D3D3D] w-[2.5rem] h-[2.5rem] flex items-center justify-center">
-                    <i class="fa-solid fa-microphone text-white"></i>
-                </div>
-            </div>
-
-            <div class="flex  items-center gap-4">
-                <div class="flex text-white items-center gap-3 rounded-full bg-[#3D3D3D] py-1 px-2">
-                    <i class="fa-solid fa-plus"></i>
-                    <p>Créer</p>
-                </div>
-                <div class="flex text-white items-center">
-                    <i class="fa-solid fa-bell text-xl"></i>
-                </div>
-                <div class="w-[2rem] h-[2rem] flex items-center justify-center">
-                    <img src="assets/profil.jpg" class="rounded-full bg-cover" alt="profil">
-                </div>
-            </div>
-            
+            </div> 
         </nav>
+
+        <div class=" text-white w-[15rem]  flex flex-col gap-2 fixed top-[4.5rem] ">
+            <div class="flex flex-col w-[13rem] mx-2">
+                <div class="flex items-center  px-[2rem] gap-5 h-[2.5rem] rounded-xl hover:bg-[#3D3D3D] cursor-pointer">
+                    <i class="fa-solid fa-house"></i>
+                    <p>Accuiel</p>
+                </div>
+                <div class="flex items-center px-[2rem] gap-5 h-[2.5rem] rounded-xl hover:bg-[#3D3D3D] cursor-pointer">
+                    <i class="fa-solid fa-video"></i>
+                    <p>Short</p>
+                </div>
+                <div class="flex items-center  px-[2rem] gap-5 h-[2.5rem] rounded-xl hover:bg-[#3D3D3D] cursor-pointer">
+                    <i class="fa-solid fa-money-bill-1-wave"></i>
+                    <p>Abonnements</p>
+                </div>
+            </div>
+            <div class="border-b-1 border-[#3D3D3D] my-1"></div>
+            <div class="flex flex-col w-[13rem] mx-2">
+                <div class="flex items-center  px-[2rem] gap-5 h-[2.5rem] rounded-xl hover:bg-[#3D3D3D] cursor-pointer">
+                    <i class="fa-solid fa-house"></i>
+                    <p>Accuiel</p>
+                </div>
+                <div class="flex items-center px-[2rem] gap-5 h-[2.5rem] rounded-xl hover:bg-[#3D3D3D] cursor-pointer">
+                    <i class="fa-solid fa-video"></i>
+                    <p>Short</p>
+                </div>
+                <div class="flex items-center  px-[2rem] gap-5 h-[2.5rem] rounded-xl hover:bg-[#3D3D3D] cursor-pointer">
+                    <i class="fa-solid fa-money-bill-1-wave"></i>
+                    <p>Abonnements</p>
+                </div>
+                <div class="flex items-center  px-[2rem] gap-5 h-[2.5rem] rounded-xl hover:bg-[#3D3D3D] cursor-pointer">
+                    <i class="fa-solid fa-house"></i>
+                    <p>Accuiel</p>
+                </div>
+                <div class="flex items-center px-[2rem] gap-5 h-[2.5rem] rounded-xl hover:bg-[#3D3D3D] cursor-pointer">
+                    <i class="fa-solid fa-video"></i>
+                    <p>Short</p>
+                </div>
+                <div class="flex items-center  px-[2rem] gap-5 h-[2.5rem] rounded-xl hover:bg-[#3D3D3D] cursor-pointer">
+                    <i class="fa-solid fa-money-bill-1-wave"></i>
+                    <p>Abonnements</p>
+                </div>
+            </div>
+            <div class="border-b-1 border-[#3D3D3D] my-1"></div>
+        </div>
     </header>
+    <main class="pl-[15rem]  pt-[4.5rem]">
+        <div class=" pl-2 flex items-center justify-start gap-4 fixed w-full bg-[#0f0f0f] h-[2rem]">
+            <div class="flex items-center justify-center bg-[#3D3D3D] rounded-xl text-white py-1 px-4 hover:bg-[#676767] cursor-pointer">
+                <p>Tout</p>
+            </div>
+            <div class="flex items-center justify-center bg-[#3D3D3D] rounded-xl text-white py-1 px-4 hover:bg-[#676767] cursor-pointer">
+                <p>Musique</p>
+            </div>
+            <div class="flex items-center justify-center bg-[#3D3D3D] rounded-xl text-white py-1 px-4 hover:bg-[#676767] cursor-pointer">
+                <p>Mix</p>
+            </div>
+            <div class="flex items-center justify-center bg-[#3D3D3D] rounded-xl text-white py-1 px-4 hover:bg-[#676767] cursor-pointer">
+                <p>Musiques d'adoration contem...</p>
+            </div>
+            <div class="flex items-center justify-center bg-[#3D3D3D] rounded-xl text-white py-1 px-4 hover:bg-[#676767] cursor-pointer">
+                <p>Tailwindcss</p>
+            </div>
+            <div class="flex items-center justify-center bg-[#3D3D3D] rounded-xl text-white py-1 px-4 hover:bg-[#676767] cursor-pointer">
+                <p>JavaScript</p>
+            </div>
+            <div class="flex items-center justify-center bg-[#3D3D3D] rounded-xl text-white py-1 px-4 hover:bg-[#676767] cursor-pointer">
+                <p>R'n'B</p>
+            </div>
+            <div class="flex items-center justify-center bg-[#3D3D3D] rounded-xl text-white py-1 px-4 hover:bg-[#676767] cursor-pointer">
+                <p>En direct</p>
+            </div>
+            <div class="flex items-center justify-center bg-[#3D3D3D] rounded-xl text-white py-1 px-4 hover:bg-[#676767] cursor-pointer">
+                <p>Graphisme</p>
+            </div>
+            <div class="flex items-center justify-center bg-[#3D3D3D] rounded-xl text-white py-1 px-4 hover:bg-[#676767] cursor-pointer">
+                <p>Regardées</p>
+            </div>
+        </div>
+        <div class="ml-5 mt-[3.6rem] ">
+            <div class="flex flex-wrap gap-5">
+                <div class="w-[33rem]">
+                    <iframe 
+                        class="rounded-sm w-[33rem] aspect-video"
+                        title="vimeo-player"
+                        src="https://player.vimeo.com/video/764297424?h=04309e89de"
+                        frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                    <div class="flex items-start justify-start gap-2 mt-2">
+                        <div class="w-[2rem] h-[2rem]">
+                            <img src="assets/profil.jpg" class="rounded-full bg-cover" alt="">
+                        </div>
+                        <div class="flex flex-col">
+                            <div class="flex items-center gap-6">
+                                <h3 class="text-lg font-semibold leading-snug line-clamp-2 text-white">Deux enfants qui jouent</h3>
+                                <i class="fa-solid fa-ellipsis-vertical text-white"></i>
+                            </div>
+                            <div class="flex items-center">
+                                <p class="text-base text-white">Kadea Academy</p>
+                                <span> 
+                                    <img src="assets/verify.png" alt=""class="w-[2rem] h-[2rem]">
+                                </span>
+                            </div>
+                            <p class="text-base text-white">1,2 M vues • il y a 3 jours</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="w-[33rem]">
+                    <iframe 
+                        class="rounded-sm w-[33rem] aspect-video"
+                        title="vimeo-player"
+                        src="https://player.vimeo.com/video/750432905?h=ab55dbe681"
+                        frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                    <div class="flex items-start justify-start gap-2 mt-2">
+                        <div class="w-[2rem] h-[2rem]">
+                            <img src="assets/profil.jpg" class="rounded-full bg-cover" alt="">
+                        </div>
+                        <div class="flex flex-col">
+                            <div class="flex items-center gap-6">
+                                <h3 class="text-lg font-semibold leading-snug line-clamp-2 text-white">Deux enfants qui jouent</h3>
+                                <i class="fa-solid fa-ellipsis-vertical text-white"></i>
+                            </div>
+                            <div class="flex items-center">
+                                <p class="text-base text-white">Kadea Academy</p>
+                                <span> 
+                                    <img src="assets/verify.png" alt=""class="w-[2rem] h-[2rem]">
+                                </span>
+                            </div>
+                            <p class="text-base text-white">1,2 M vues • il y a 3 jours</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[33rem]">
+                    <iframe 
+                        class="rounded-sm w-[33rem] aspect-video"
+                        title="vimeo-player"
+                        src="https://player.vimeo.com/video/436960717?h=f5b9927bde"
+                        frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                    <div class="flex items-start justify-start gap-2 mt-2">
+                        <div class="w-[2rem] h-[2rem]">
+                            <img src="assets/profil.jpg" class="rounded-full bg-cover" alt="">
+                        </div>
+                        <div class="flex flex-col">
+                            <div class="flex items-center gap-6">
+                                <h3 class="text-lg font-semibold leading-snug line-clamp-2 text-white">Deux enfants qui jouent</h3>
+                                <i class="fa-solid fa-ellipsis-vertical text-white"></i>
+                            </div>
+                            <div class="flex items-center">
+                                <p class="text-base text-white">Kadea Academy</p>
+                                <span> 
+                                    <img src="assets/verify.png" alt=""class="w-[2rem] h-[2rem]">
+                                </span>
+                            </div>
+                            <p class="text-base text-white">1,2 M vues • il y a 3 jours</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[33rem]">
+                    <iframe 
+                        class="rounded-sm w-[33rem] aspect-video"
+                        title="vimeo-player"
+                        src="https://player.vimeo.com/video/764297424?h=04309e89de"
+                        frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                    <div class="flex items-start justify-start gap-2 mt-2">
+                        <div class="w-[2rem] h-[2rem]">
+                            <img src="assets/profil.jpg" class="rounded-full bg-cover" alt="">
+                        </div>
+                        <div class="flex flex-col">
+                            <div class="flex items-center gap-6">
+                                <h3 class="text-lg font-semibold leading-snug line-clamp-2 text-white">Une video</h3>
+                                <i class="fa-solid fa-ellipsis-vertical text-white"></i>
+                            </div>
+                            <div class="flex items-center">
+                                <p class="text-base text-white">Kadea Academy</p>
+                                <span> 
+                                    <img src="assets/verify.png" alt=""class="w-[2rem] h-[2rem]">
+                                </span>
+                            </div>
+                            <p class="text-base text-white">1,2 M vues • il y a 3 jours</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </main>
+    
 </body>
 </html>
 
-<!-- class="bg-[#0f0f0f]" -->
+<!-- class="bg-[#0f0f0f]" 
+ <iframe title="vimeo-player" src="https://player.vimeo.com/video/750432905?h=ab55dbe681" width="640" height="360" frameborder="0"   
+ 
+ <iframe title="vimeo-player" src="https://player.vimeo.com/video/436960717?h=f5b9927bde" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+ 
+ allowfullscreen></iframe>
+autoplay-->
